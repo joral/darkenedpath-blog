@@ -6,11 +6,10 @@ const config = {
   siteUrl: "https://www.darkenedpath.com", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
-  siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "A blog about life and Rust development.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "A Darkened Path RSS feed", // Title of the RSS feed
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
+  siteGATrackingID: "UA-306657-9", // Tracking code ID for google analytics.
   disqusShortname: "https-vagr9k-github-io-gatsby-material-starter", // Disqus shortname.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
@@ -24,22 +23,17 @@ const config = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-material-starter",
-      iconClassName: "fa fa-github",
-    },
-    {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
+      url: "https://twitter.com/tyrithe",
       iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
-      url: "mailto:vagr9k@gmail.com",
+      url: "mailto:justin@darkenedpath.com",
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2020. Material User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright ©2020. Justin", // Copyright string for the footer of the website and RSS feed.
 };
 
 // Validate
